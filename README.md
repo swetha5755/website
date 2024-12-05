@@ -210,10 +210,7 @@ Publish the website in the given URL.
 </html>
 ```
 # OUTPUT:
-
 ![Screenshot 2024-12-05 163453](https://github.com/user-attachments/assets/69270f7a-9ae1-4394-9a5f-ec31e84954b3)
 ![Screenshot 2024-12-05 163521](https://github.com/user-attachments/assets/3c155ef0-00c6-4e7b-8f4c-77b02ea8ea11)
-
 # RESULT:
-
 The program for designing software company website using HTML and CSS is completed successfully.
