@@ -208,9 +208,245 @@ Publish the website in the given URL.
     </section>
 </body>
 </html>
+administation page
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administration - My Restaurant</title>
+    <style>
+     *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/free-photo/golden-cutlery-with-textile-plate-dark-background-top-view_1220-6580.jpg');
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #99816d; 
+}
+
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+.member {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.member img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 4px solid #f4a261; 
+}
+
+.member h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.member p {
+    font-size: 1.1rem;
+    color: #777;
+}
+
+.member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1>Administration Team</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="admin.html">Administration</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Meet Our Team</h2>
+        <div class="team">
+            <div class="member">
+                <img src="C:\Users\admin\Pictures\Screenshots\Screenshot 2024-12-14 102403.png" alt="Member 1">
+                <h3>Jessie</h3>
+                <p>CEO</p>
+            </div>
+            <div class="member">
+                <img src="C:\Users\admin\Pictures\Screenshots\Screenshot 2024-12-14 101807.png" alt="Member 2">
+                <h3>Jane<h3>
+                <p>Marketing Manager</p>
+            </div>
+            <div class="member">
+                <img src="C:\Users\admin\Pictures\Screenshots\Screenshot 2024-12-14 101847.png" alt="Member 3">
+                <h3>Henry<h3>
+                <p>Operations Manager</p>
+            </div>
+            <div class="member">
+                <img src="C:\Users\admin\Pictures\Screenshots\Screenshot 2024-12-14 101917.png" alt="Member 4">
+                <h3>Victor<h3>
+                <p>HR Manager</p>
+            </div>
+            <div class="member">
+                <img src="C:\Users\admin\Pictures\Screenshots\Screenshot 2024-12-14 101952.png"alt="Member 5">
+                <h3>Thomas<h3>
+                <p>Executive Chef</p>
+            </div>
+            <div class="member">
+                <img src="C:\Users\admin\Pictures\Screenshots\Screenshot 2024-12-14 102232.png" alt="Member 6">
+                <h3>Charles<h3>
+                <p>Customer Service Manger</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+contact page
+<body>
+    <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://img.freepik.com/free-photo/vintage-old-rustic-cutlery-dark_1220-4886.jpg?t=st=1734152671~exp=1734156271~hmac=9b48fcfca0e1347ad01be238ff23b3220e9a0226cfcb15493b1591997718139c&w=1060);
+    background-size: cover;
+    background-position:center;
+    color: #333;
+  }
+  #contact {
+    background-color: #b5a7a7;
+    padding: 80px 20px;
+    margin: 200px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #contact p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  address {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  address br {
+    margin-bottom: 10px;
+  }
+  
+  #contact:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+    </style>
+     <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Visit us at:</p>
+    <address>
+      123 Main Street, Cityville, India
+      <br>
+      Phone: (123) 456-7890
+      <br>
+      Email: info@myrestaurant.com
+    </address>
+  </section>
+  </body>
+  </html>
 ```
 # OUTPUT:
 ![Screenshot 2024-12-05 163453](https://github.com/user-attachments/assets/69270f7a-9ae1-4394-9a5f-ec31e84954b3)
 ![Screenshot 2024-12-05 163521](https://github.com/user-attachments/assets/3c155ef0-00c6-4e7b-8f4c-77b02ea8ea11)
+![Screenshot 2024-12-14 104743](https://github.com/user-attachments/assets/54a236c4-3b4c-4aa0-821b-09c122ec9f18)
+![Screenshot 2024-12-14 104643](https://github.com/user-attachments/assets/9985cc09-2bf5-4ffc-ac86-a46579e5bed4)
+
 # RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
